@@ -1,0 +1,31 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "e768ddec-a5aa-4bc8-b50a-856f5f50e391",
+            "level": 0,
+            "email": "user@xray"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/media/music/playlist.mp4"
+        },
+        "security": "tls"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
